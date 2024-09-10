@@ -1,0 +1,167 @@
+/* Remove default margins for body */
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif; /* Example Google Font */
+}
+
+/* Style navigation */
+nav {
+    background-color: #f0f0f0;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Style footer */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Splash Section */
+.splash {
+    background-color: #e0f7fa;
+    text-align: center;
+    padding: 40px 0;
+}
+
+/* Style for h1 */
+h1 {
+    font-size: 36px;
+    color: #00796b;
+    font-family: 'Lobster', cursive; /* Example Google Font */
+    text-align: center;
+}
+
+/* Style for the headshot image */
+img {
+    border: 3px solid #00796b;
+    border-radius: 50%;
+    text-align: center;
+}
+
+/* Style address and tagline paragraphs */
+.address {
+    font-size: 18px;
+    color: #444;
+    text-align: center;
+}
+
+.tagline {
+    font-size: 20px;
+    font-weight: bold;
+    color: #00796b;
+}
+
+/* Style horizontal rule */
+hr {
+    border: 0;
+    height: 2px;
+    background: #00796b;
+    margin: 20px 0;
+}
+
+/* Style h2 headings in sections */
+h2 {
+    color: #00796b;
+    font-family: 'Roboto', sans-serif; /* Google Font */
+    font-size: 28px;
+    text-align: center;
+}
+
+/* Style unordered lists */
+ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+/* Style description lists using grid layout */
+dl {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+/* Style anchor links */
+a {
+    color: #00796b;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #004d40;
+}
+
+/* Project Section - 3 Column Grid */
+.three-col {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+/* Style project cards */
+.card {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Style images inside project cards */
+.card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* Style input elements */
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+    background-color: #00796b;
+    color: white;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #004d40;
+}
+
+.main-section {
+    display: flex;
+    flex-direction: column; /* Ensures content stacks vertically */
+    align-items: center;    /* Centers horizontally */
+    justify-content: center; /* Centers vertically */
+    height: 100vh;          /* Makes the section take up the full viewport height */
+    text-align: center;     /* Centers text inside the section */
+    margin: 0 auto;
+}
+
+/* Bubble effect for a full section */
+.bubble {
+    background-color: #00796b; /* Background color for the bubble */
+    color: white; /* Text color inside the bubble */
+    padding: 20px; /* Adds space inside the bubble */
+    border-radius: 20px; /* Rounds the corners for the bubble effect */
+    margin: 20px 0; /* Adds space above and below the bubble */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional shadow for the bubble effect */
+}
+
+/* Align the dates to the right */
+.bubble .dates {
+    text-align: right;
+    color: #f0f0f0; /* Lighter color for dates */
+    margin: 0; /* Removes extra margin */
+}
